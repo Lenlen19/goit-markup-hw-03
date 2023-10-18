@@ -21,13 +21,16 @@ font-weight: 800;
 line-height: 21px;
 letter-spacing: 0.54px;
 text-transform: uppercase;
-
 }
 .logo span {
     color: var(--IRIS)
 }
 nav .logo{
-    color: var(--NAVY)
+    color: var(--NAVY);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 footer .logo{
     color: var(--CLOUD)
@@ -41,10 +44,17 @@ footer .logo{
 .nav-link:hover, .nav-link:focus{
     color: var(--IRIS);
 }
-
+.label-menu{
+    display:flex;
+    text-align: center;
+}
 .hero {
     background-color: var(--NAVY);
-    color: var(--WHITE)
+    color: var(--WHITE);
+       width: 1158px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    text-align: center;
     }
 .hero-name{
     text-align: center;
@@ -58,7 +68,7 @@ background-color: var(--IRIS);
 color: var(--WHITE, #FFF);
 text-align: center; 
 border-radius: 4px;
-box-shadow: 0px 4px 4px 0px; rgba(0,0,0,0.15)
+padding: 16px 32px;
 }
 h3{
     font-size: 20px;
@@ -81,16 +91,63 @@ ul.list {
     font-weight: 500;
     line-height: 150%;
     letter-spacing: 0.32px;
+    display:flex;
+    
 }
+
 div ul.list li a{
     color: var(--navy)
     list-style: none;
     text-decoration: none;
     padding-left: 0px
-
+    justify-content: space-around;
 }
 .bg-dark{
     text-align: left;
     background-color: var(--NAVY);
     color: var(--WHITE)
+}
+.container{
+    width: 1158px;
+}
+div .style-flex{
+    display:flex;
+    text-align: center;
+    height: 72px;
+    
+}
+header .main-header{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 40px;
+}
+header .style-flex{
+    justify-content: space-around;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+section .flex-c{
+    display:flex;
+    
+}
+.container{
+    width: 1158px;
+}
+.disflex{
+    display:flex;
+    align-items: center;
+   
+}
+.main-header{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header .list{
+    gap: 40px;
+}
+.section{
+    padding-top:120px;
+    padding-bottom:120px;
 }
