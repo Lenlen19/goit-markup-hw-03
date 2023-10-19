@@ -37,7 +37,8 @@ nav .logo{
     
 }
 footer .logo{
-    color: var(--CLOUD)
+    color: var(--CLOUD);
+    width: 1158px;
 }
 .nav-link{
     font-weight: 500;
@@ -110,10 +111,14 @@ div ul.list li a{
     padding-left: 0px
     justify-content: space-around;
 }
+footer .bg-dark{
+    width:1158px;
+}
 .bg-dark{
     text-align: left;
     background-color: var(--NAVY);
     color: var(--WHITE)
+    
 }
 .container{
     width: 1158px;
@@ -154,6 +159,7 @@ header .list{
     padding-top:120px;
     padding-bottom:120px;
     width: 1158px;
+    font-size: 36;
 }
 .s-list{
     display: flex;
